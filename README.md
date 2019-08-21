@@ -19,14 +19,14 @@ This is a package that grouped all necessary packages in Laravel and Backpack. Q
 
 ### Basic users and settings:
 
-- [] Seeded webmaster, admin and user roles
-- [] Basic permissions for website
+- [ ] Seeded webmaster, admin and user roles
+- [ ] Basic permissions for website
 
 ### Front-end Language:
 
-- [] SASS
-- [] Jade
-- [] Typescript
+- [ ] SASS
+- [ ] Jade
+- [ ] Typescript
 
 ## Getting started
 
