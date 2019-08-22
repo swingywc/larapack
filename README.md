@@ -47,6 +47,13 @@ This is a package that grouped all necessary packages in Laravel and Backpack. Q
 
 `php artisan serve`
 
+## Development
+
+Please run `php artisan serve` first. As `browserSync` has installed, please open another terminal and run `npm run watch`.
+Any changes on html/css/js files will affect `browserSync` to reload your webpages.
+
+> NOTE: Please browse the website through `localhost:3000` instead of `localhost:8000`.
+
 ## Debug and console
 
 `php artisan tinker`
