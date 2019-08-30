@@ -25,7 +25,7 @@ This is a package that grouped all necessary packages in Laravel and Backpack. Q
 ### Front-end Language:
 
 - [ ] SASS
-- [ ] Jade
+- [ ] Pug (Jade)
 - [ ] Typescript
 
 ## Getting started

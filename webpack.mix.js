@@ -1,4 +1,5 @@
 const mix = require('laravel-mix');
+mix.pug = require('laravel-mix-pug');
 
 /*
  |--------------------------------------------------------------------------
@@ -13,4 +14,8 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
+    .pug('resources/pug/**/*.pug', '', {
+      replacePath: ['resources/pug', 'resources/views'],
+      ext: '.blade.php'
+    })
     .browserSync({proxy: 'localhost:8000'});
