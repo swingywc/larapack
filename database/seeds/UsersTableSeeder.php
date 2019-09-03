@@ -14,9 +14,9 @@ class UsersTableSeeder extends Seeder
         DB::table('users')->insert([
             [
                 'id' => 1,
-                'name' => env('BACKPACK_WEBMASTER_NAME'),
-                'email' => env('BACKPACK_WEBMASTER_EMAIL'),
-                'password' => bcrypt(env('BACKPACK_WEBMASTER_PASSWORD')),
+                'name' => env('WEBMASTER_NAME'),
+                'email' => env('WEBMASTER_EMAIL'),
+                'password' => bcrypt(env('WEBMASTER_PASSWORD')),
             ]
         ]);
     }
