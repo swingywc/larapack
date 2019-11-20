@@ -2,7 +2,7 @@
 
 namespace App;
 
-use Backpack\CRUD\CrudTrait;
+use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Spatie\Permission\Traits\HasRoles;
 
 use Illuminate\Notifications\Notifiable;
