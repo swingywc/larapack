@@ -173,7 +173,7 @@ return [
 
     // The prefix used in all base routes (the 'admin' in admin/dashboard)
     // You can make sure all your URLs use this prefix by using the backpack_url() helper instead of url()
-    'route_prefix' => 'admin',
+    'route_prefix' => 'admin_panel',
 
     // Set this to false if you would like to use your own AuthController and PasswordController
     // (you then need to setup your auth routes manually in your routes.php file)
@@ -201,7 +201,7 @@ return [
     'middleware_class' => [
         App\Http\Middleware\CheckIfAdmin::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
-        // \Backpack\CRUD\app\Http\Middleware\UseBackpackAuthGuardInsteadOfDefaultAuthGuard::class,
+        \Backpack\CRUD\app\Http\Middleware\UseBackpackAuthGuardInsteadOfDefaultAuthGuard::class,
     ],
 
     // Alias for that middleware
