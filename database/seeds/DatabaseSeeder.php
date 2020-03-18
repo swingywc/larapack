@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
           UsersTableSeeder::class,
           RolesTableSeeder::class,
           ModelHasRolesTableSeeder::class,
+          LanguageTableSeeder::class,
         ]);
     }
 }
