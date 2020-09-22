@@ -12,7 +12,7 @@ mix.pug = require('laravel-mix-pug');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
+mix.react('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
     .pug('resources/pug/**/*.pug', '', {
       replacePath: ['resources/pug', 'resources/views'],
